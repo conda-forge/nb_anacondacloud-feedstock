@@ -4,5 +4,6 @@ if [[ $(uname) == Linux ]]; then
 fi
 
 cd "${SRC_DIR}"
+
 "${PREFIX}/bin/npm" install .
 "${PREFIX}/bin/npm" run test
