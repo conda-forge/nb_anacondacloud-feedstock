@@ -11,6 +11,18 @@ Summary: Interact with Anaconda Cloud
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_anacondacloud-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-anacondacloud-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/version.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
+
 Installing nb_anacondacloud
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `nb_anacondacloud` available on yo
 ```
 conda search nb_anacondacloud --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_anacondacloud-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-anacondacloud-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/version.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
 
 
 Updating nb_anacondacloud-feedstock
