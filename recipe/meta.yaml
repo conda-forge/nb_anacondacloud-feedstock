@@ -22,14 +22,12 @@ requirements:
     - python
     - setuptools
     - notebook >=4.2.0
-    - anaconda-client
 
   run:
     - python
     - notebook >=4.2.0
     - nb_conda_kernels >=2.0.0
     - anaconda-client
-
 
 test:
   imports:
