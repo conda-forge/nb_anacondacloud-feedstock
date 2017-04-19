@@ -22,6 +22,7 @@ requirements:
     - python
     - setuptools
     - notebook >=4.2.0
+    - anaconda-client
 
   run:
     - python
