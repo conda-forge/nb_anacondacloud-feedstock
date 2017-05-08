@@ -30,9 +30,9 @@ requirements:
     - nb_conda_kernels >=2.0.0
     - anaconda-client
 
-# test:
-#   imports:
-#     - nb_anacondacloud
+test:
+  imports:
+    - nb_anacondacloud
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
