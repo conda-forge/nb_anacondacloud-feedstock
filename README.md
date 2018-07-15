@@ -14,14 +14,15 @@ Summary: Interact with Anaconda Cloud
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nb_anacondacloud-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nb_anacondacloud-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nb-anacondacloud-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nb_anacondacloud-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nb_anacondacloud-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/version.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nb_anacondacloud/badges/downloads.svg)](https://anaconda.org/conda-forge/nb_anacondacloud)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nb_anacondacloud-green.svg)](https://anaconda.org/conda-forge/nb_anacondacloud) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nb_anacondacloud.svg)](https://anaconda.org/conda-forge/nb_anacondacloud) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nb_anacondacloud.svg)](https://anaconda.org/conda-forge/nb_anacondacloud) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nb_anacondacloud.svg)](https://anaconda.org/conda-forge/nb_anacondacloud) |
 
 Installing nb_anacondacloud
 ===========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
