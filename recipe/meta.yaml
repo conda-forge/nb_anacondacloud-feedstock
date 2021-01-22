@@ -18,7 +18,7 @@ build:
     - jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - notebook >=4.3.1
