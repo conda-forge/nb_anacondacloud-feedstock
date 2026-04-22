@@ -12,7 +12,7 @@ source:
   sha256: 3f6ab7c466d073281e05fc40937d65631c966d5ae50446ae847dd361f16bef48
 
 build:
-  number: 3
+  number: 4
   script:
     - python setup.py install --single-version-externally-managed --record=record.txt
     - jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite
